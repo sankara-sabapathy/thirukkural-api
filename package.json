@@ -5,6 +5,7 @@
   "main": "source/server.ts",
 
   "scripts": {
+    "start": "node source/server.ts"
     "dev": "nodemon source/server.ts",
     "build": "rm -rf build/ && tsc"
   },
